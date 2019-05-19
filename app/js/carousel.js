@@ -72,6 +72,14 @@ window.onload = function () {
 
     function initSlider() {
         var switchers = document.getElementsByClassName('slider__switcher');
+        var images = document.getElementsByClassName('slider__item-img');
+        
+        for(i=0; i<images.length; ++i){
+            var src = images[i].src;
+            images[i].parentElement.style.backgroundImage = 'url('+ src +')';
+            images[i].style.display = 'none';
+        }
+
         for (i = 0; i < switchers.length; ++i) {
             switchers[i].addEventListener('click', function (e) {
 

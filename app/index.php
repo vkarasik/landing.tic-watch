@@ -15,7 +15,7 @@
         <?php 
             include 'includes/header.html';
             include 'includes/slider.html';
-            include 'includes/products.html';
+           include 'includes/products.html';
             include 'includes/carousel.html';
             include 'includes/footer.html';
         ?>

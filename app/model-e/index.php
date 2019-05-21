@@ -8,13 +8,13 @@
 		<meta http-equiv="Pragma" content="no-cache">
         <meta http-equiv="Expires" content="-1">
         <title>TicWatch — умные часы</title>
-        <?php include 'includes/head.html'; ?>
+        <?php include '../includes/head.html'; ?>
     </head>
     <body>
         <div class="container-fluid">
         <?php 
-            include 'includes/header.html';
-            include 'includes/footer.html';
+            include '../includes/header.html';
+            include '../includes/footer.html';
         ?>
         </div>
     </body>

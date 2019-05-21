@@ -38,7 +38,7 @@ h2 {
         font-size: 200%;
     }
 
-    .text &{
+    .text & {
         color: @color-dark;
         font-size: 400%;
         font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
@@ -70,7 +70,7 @@ p {
     font-size: 160%;
     line-height: 1.5;
 
-    footer &{
+    footer & {
         font-size: 140%;
         margin-bottom: 15px;
     }
@@ -104,9 +104,200 @@ img {
     }
 }
 
-.text{
+.video {
+    position: relative;
+    font-size: 0;
+
+    video {
+        max-width: 100%;
+    }
+
+    &__button {
+        width: 100px;
+        height: 100px;
+        border: 2px solid @color-light;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__triangle {
+        display: inline-block;
+        border-top: 15px solid transparent;
+        border-left: 25px solid #fff;
+        border-bottom: 15px solid transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-30%, -50%);
+    }
+
+}
+
+.overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+
+    &__content {
+        width: 60%;
+        height: 60%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.features{
+    padding: 70px 0;
+    background: linear-gradient(#cbbda6,#766e7f) !important;
+    img{
+        max-width: 100%;
+    } 
+}
+
+.feature {
+    min-height: 100px;
+    clear: both;
+    margin: 30px 0;
+    color: @color-light;
+
+    &__icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url('../img/ticwatch-e2-features.png');
+        background-repeat: no-repeat;
+    }
+
+    &__text {
+        padding: 5px 0;
+        h4 {
+            font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+            font-size: 180%;
+            line-height: 1.1;
+            text-transform: none;
+            margin: 0 0 10px;
+        }
+        p{
+            margin: 0;
+        }
+    }
+
+    &__icon_right {
+        float: right;
+        margin-left: 20px;
+    }
+
+    &__icon_left {
+        float: left;
+        margin-right: 20px;
+    }
+
+    &__text_right {
+        text-align: right;
+    }
+
+
+    &__icon_clock {
+        background-position: 0% 0%;
+    }
+    &__icon_wearos {
+        background-position: 33% 0%;
+    }
+    &__icon_platform {
+        background-position: 67% 0%;
+    }
+    &__icon_battery {
+        background-position: 100% 0%;
+    }
+    &__icon_activity {
+        background-position: 0% 100%;
+    }
+    &__icon_gps {
+        background-position: 33% 100%;
+    }
+    &__icon_waterproof {
+        background-position: 67% 100%;
+    }
+    &__icon_heartrate {
+        background-position: 100% 100%;
+    }
+}
+
+.banner {
+    height: 600px;
+    @media(max-width: 768px){
+        height: 400px;
+    }
+
+    &_ticwatch-e2 {
+        background: url('../img/ticwatch-e2.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    &__text {
+        padding: 100px 0;
+        //transform: translateY(50%);
+        color: @color-light;
+    }
+}
+
+.text {
     padding: 50px 0;
     text-align: center;
+}
+
+#map {
+    height: 500px;
+    margin: 20px 0;
+}
+
+.shop {
+    display: inline-block;
+    position: relative;
+
+    &__overlay {
+        display: none;
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        top: 49%;
+        left: 0;
+        transform: translateY(-50%);
+        background: #3f3f3f;
+        opacity: 0.8;
+
+        a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            padding: 5px 5px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            font-size: 0;
+        }
+    }
+
+    &__location {
+        right: 15%;
+    }
+
+    &__link {
+        left: 15%;
+    }
 }
 
 .slider {
@@ -117,7 +308,8 @@ img {
     &__inner {
         display: flex;
         height: 600px;
-        @media(max-width: 768px){
+
+        @media(max-width: 768px) {
             height: 300px;
         }
     }
@@ -209,7 +401,7 @@ img {
     }
 }
 
-.fixed{
+.fixed {
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -237,11 +429,11 @@ img {
         float: right;
     }
 
-    &__submenu{
+    &__submenu {
         padding: 10px 0;
         display: flex;
 
-        @media(max-width: 768px){
+        @media(max-width: 768px) {
             flex-direction: column;
         }
 
@@ -251,18 +443,18 @@ img {
         color: @color-dark;
         opacity: 0.8;
 
-        &:hover{
+        &:hover {
             opacity: 1;
         }
 
-        &:hover{
+        &:hover {
             color: @color-dark + 20%;
             text-decoration: none;
         }
 
         &:after {
             content: "";
-            display:none;
+            display: none;
             width: 10px;
             height: 10px;
             border-top: 3px solid @color-dark;
@@ -272,11 +464,11 @@ img {
             transform: rotate(45deg);
             vertical-align: middle;
 
-            @media(max-width: 768px){
-                display:inline-block;
+            @media(max-width: 768px) {
+                display: inline-block;
             }
         }
-        
+
 
         img {
             width: 35%;
@@ -304,12 +496,12 @@ img {
     border-right: 6px solid transparent;
     vertical-align: middle;
     transition: all .8s ease-in-out;
-    }
+}
 
 .product {
     text-align: center;
     padding: 5px;
-    
+
 
     &__item {
         width: 100%;
@@ -318,11 +510,6 @@ img {
 
         img {
             max-width: 100%;
-            //transition: all .8s ease-in-out;
-
-            &:hover {
-               // transform: scale(1.05, 1.05);
-            }
         }
     }
 
@@ -334,16 +521,18 @@ img {
         text-align: center;
     }
 
-    .product__photo_mobile{
+    .product__photo_mobile {
         display: none;
-        @media(max-width: 768px){
+
+        @media(max-width: 768px) {
             display: block;
         }
     }
 
-    .product__photo_desktop{
+    .product__photo_desktop {
         display: block;
-        @media(max-width: 768px){
+
+        @media(max-width: 768px) {
             display: none;
         }
     }

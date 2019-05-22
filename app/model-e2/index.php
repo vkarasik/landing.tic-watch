@@ -7,7 +7,7 @@
         <meta http-equiv="Cache-control" content="no-cache">
 		<meta http-equiv="Pragma" content="no-cache">
         <meta http-equiv="Expires" content="-1">
-        <title>TicWatch — умные часы</title>
+        <title>TicWatch E2 — умные часы</title>
         <?php include '../includes/head.html'; ?>
     </head>
     <body>

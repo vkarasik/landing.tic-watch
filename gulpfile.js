@@ -137,7 +137,7 @@ gulp.task('watch', function () {
     gulp.watch(path.app.less, ['less']);
     gulp.watch('app/less/**/*.less', ['less']);
     gulp.watch(path.app.includes, ['reload']);
-    gulp.watch(path.app.php, ['reload']);
+    //gulp.watch(path.app.php, ['reload']);
     gulp.watch(path.app.includesHtml, ['reload']);    
     gulp.watch(path.app.js, ['reload']);
 });

@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 },
                 "options": {
                     "iconLayout": "default#image",
-                    "iconImageHref": "../img/pin.svg",
+                    "iconImageHref": "../img/icon_pin.svg",
                     "iconImageSize": [35, 35]
                 }
             },
@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 },
                 "options": {
                     "iconLayout": "default#image",
-                    "iconImageHref": "../img/pin.svg",
+                    "iconImageHref": "../img/icon_pin.svg",
                     "iconImageSize": [35, 35]
                 }
             },
@@ -76,7 +76,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 },
                 "options": {
                     "iconLayout": "default#image",
-                    "iconImageHref": "../img/pin.svg",
+                    "iconImageHref": "../img/icon_pin.svg",
                     "iconImageSize": [35, 35]
                 }
             },
@@ -88,7 +88,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 },
                 "options": {
                     "iconLayout": "default#image",
-                    "iconImageHref": "../img/pin.svg",
+                    "iconImageHref": "../img/icon_pin.svg",
                     "iconImageSize": [35, 35]
                 }
             },
@@ -100,7 +100,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 },
                 "options": {
                     "iconLayout": "default#image",
-                    "iconImageHref": "../img/pin.svg",
+                    "iconImageHref": "../img/icon_pin.svg",
                     "iconImageSize": [35, 35]
                 }
             },
@@ -112,7 +112,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 },
                 "options": {
                     "iconLayout": "default#image",
-                    "iconImageHref": "../img/pin.svg",
+                    "iconImageHref": "../img/icon_pin.svg",
                     "iconImageSize": [35, 35]
                 }
             }
@@ -126,7 +126,7 @@ window.addEventListener('DOMContentLoaded', function(){
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "../img/pin.svg",
+                "iconImageHref": "../img/icon_pin.svg",
                 "iconImageSize": [35, 35]
             }
         }],
@@ -138,7 +138,7 @@ window.addEventListener('DOMContentLoaded', function(){
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "../img/pin.svg",
+                "iconImageHref": "../img/icon_pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -150,7 +150,7 @@ window.addEventListener('DOMContentLoaded', function(){
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "../img/pin.svg",
+                "iconImageHref": "../img/icon_pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -162,7 +162,7 @@ window.addEventListener('DOMContentLoaded', function(){
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "../img/pin.svg",
+                "iconImageHref": "../img/icon_pin.svg",
                 "iconImageSize": [35, 35]
             }
         }]

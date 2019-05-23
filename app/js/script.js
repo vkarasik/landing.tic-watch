@@ -6,11 +6,11 @@ $(function () {
 
         var host = window.location.origin;
 
-        if($(e.target).attr('src') == '/img/burger.svg'){
-            $(e.target).attr('src', host + '/img/cancel.svg')
+        if($(e.target).attr('src') == '/img/icon_burger.svg'){
+            $(e.target).attr('src', host + '/img/icon_cancel.svg')
         }
         else{
-            $(e.target).attr('src', '/img/burger.svg')
+            $(e.target).attr('src', '/img/icon_burger.svg')
         }
     })
 

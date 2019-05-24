@@ -27,4 +27,13 @@ $(function () {
             $(this).fadeOut();
         });
     })
+
+    // Model SE banner bg switcher
+    $('.banner__selector').on('click', function(){
+        console.dir($(this).attr('data-background'));
+        $(this).siblings().removeClass('banner__selector_active');
+        $(this).addClass('banner__selector_active');
+        var background = 'url(' + $(this).attr('data-background') + ')';
+        $('.banner_ticwatch-se').css('background-image', background);
+    })
 });

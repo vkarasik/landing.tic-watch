@@ -133,7 +133,7 @@ p {
                 display: inline-block;
             }
         }
-        
+
         img {
             width: 35%;
             vertical-align: middle;
@@ -238,15 +238,16 @@ img {
         display: none;
         max-width: 100%;
         position: absolute;
-        top:50%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
 
-        @media(min-width: 1200px){
+        @media(min-width: 1200px) {
             display: block;
         }
     }
-    h2{
+
+    h2 {
         font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
         color: @color-light;
         text-align: center;
@@ -263,7 +264,7 @@ img {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-image: url('../img/ticwatch_sprite_me_1.png');
+        background-image: url('../img/sprite_features-green.png');
         background-repeat: no-repeat;
         background-size: 200px;
 
@@ -312,11 +313,14 @@ img {
         }
     }
 
-    
+
 
     &__text_right {
         @media(min-width: 768px) {
-            p {margin: 0 70px 0 0;}
+            p {
+                margin: 0 70px 0 0;
+            }
+
             text-align: right;
         }
     }
@@ -354,33 +358,38 @@ img {
     }
 }
 
-.specification{
+.specification {
     margin: 40px 0;
     font-size: 130%;
     line-height: 1.2;
 
-    h2{
+    h2 {
         text-align: center;
     }
 
-    table{
+    table {
         width: 100%;
-        tr{
-            &:nth-child(2n+1){
+
+        tr {
+            &:nth-child(2n+1) {
                 background-color: #f6f6f6;
             }
-            td{
+
+            td {
                 padding: 10px 16px;
-                &:last-child{
+
+                &:last-child {
                     border-left: 1px solid #ffffff;
                 }
-            }   
+            }
         }
     }
 }
 
-.vertical-align-middle{
-    position: absolute;top: 50%;transform: translateY(-50%);
+.vertical-align-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .banner {
@@ -403,13 +412,65 @@ img {
     }
 
     &_ticwatch-se {
-        background: url('../img/ticwatch-se.jpg') no-repeat 70% 0%;
+        background-image: url('../img/ticwatch-se.jpg');
+        background-position: 70% 0%;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
     &__text {
         color: @color-light;
     }
+
+    &__selectors{
+        display: flex;
+        margin: 40px 0;
+    }
+
+    &__selector{
+        display: inline-block;
+        position: relative;
+        margin: 0 10px;
+        color: @color-light;
+        font-size: 110%;
+        span{
+          vertical-align: middle;  
+        }
+        
+
+        &::after{
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            content: '';
+            vertical-align: middle;
+            display: none;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        &::before{
+            content: '';
+            vertical-align: middle;
+            display: inline-block;
+            margin-right: 10px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+        }
+    }
+
+    &__selector_active{
+        &::after{
+            display: inline-block !important;
+        }
+        
+    }
+
+
 }
 
 .text {
@@ -467,6 +528,10 @@ img {
     width: 100%;
     height: 50vh;
 
+    @media(min-width: 768px) {
+        height: 90vh;
+    }
+
     &__inner {
         display: flex;
         height: 600px;
@@ -482,6 +547,10 @@ img {
         background-position: center center;
         background-repeat: no-repeat;
         position: relative;
+
+        @media(min-width: 768px) {
+            height: 90vh;
+        }
     }
 
     &__item-inner {
@@ -611,50 +680,58 @@ img {
     }
 }
 
-.ticmotion{
-    padding:70px 0;
-    background: url('../img/ticwatch_bg_la_1.jpg') no-repeat center center;
-    background-size: cover;
-    color: @color-light;
+.icon-with-text {
+    display: flex;
 
-    &__head{
-        @media(min-width: 768px){
-            text-align: center;
+    &_white {
+        color: @color-light;
+    }
+
+    span {
+        min-width: 50px;
+        min-height: 50px;
+        display: inline-block;
+        margin-right: 15px;
+
+        img {
+            width: 50px;
+            height: 50px;
         }
     }
 
-    &__item-head{
-        display: flex;
-        h4{
-            display: inline-block;
-            text-transform: none;
-            margin: 0;
-            font-size: 160%;
-            line-height: 1.2;
+    h4 {
+        display: inline-block;
+        text-transform: none;
+        margin: 0;
+        padding: 5px 0;
+        font-size: 160%;
+        line-height: 1.2;
+    }
+}
+
+.ticmotion {
+    padding: 100px 0;
+    background: url('../img/bg_ticmotion_lg.jpg') no-repeat center left;
+    background-size: cover;
+    color: @color-light;
+
+    &__head {
+        margin-bottom: 50px;
+
+        @media(min-width: 768px) {
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
         }
     }
 
     &__item{
         p{
-            margin: 30px 0;
+            font-size: 140%;
+            line-height: 1.5;
         }
-    }
-
-    &__icon{
-        display: inline-block;
-        width: 50px;   
-        height: 35px;
-        margin-right: 15px;
-        
-    }
-
-    &__icon_graph{
-        background: url('../img/ticwatch_sprite_me.png') no-repeat 50% 15%;
-        background-size: 300px;
-    }
-    &__icon_swim{
-        background: url('../img/ticwatch_sprite_me.png') no-repeat 34% 15%;
-        background-size: 385px;
     }
 }
 
@@ -679,62 +756,110 @@ footer {
     }
 }
 
-.overall{
+.overall {
     padding: 70px 0;
     position: relative;
-    &_skate{
+
+    &_skate {
         background: url('../img/ticwatche2_bg_la_1.jpg') no-repeat center center;
         background-size: cover;
         color: @color-light;
 
-        h2{
+        h2 {
             font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
-        } 
+        }
     }
 
-    &__content{
-        img{
+    &__content {
+        img {
             margin: 30px 0;
         }
     }
 
-    &__reddot{
+    &__reddot {
         width: 130px;
         height: 100px;
-        background: url('../img/ticwatch_sprite_me.png') no-repeat 0% 103%;
+        background: url('../img/sprite_ticwatch.png') no-repeat 0% 103%;
     }
 }
 
-.swimm{
+.swimm {
     padding: 150px 0;
     background: url('../img/ticwatche2_bg_la_2.jpg') no-repeat center center;
     background-size: cover;
     color: @color-light;
     text-align: center;
 
-    @media(min-width: 1200px){
+    @media(min-width: 1200px) {
         padding: 250px 0;
     }
 
-    h2{
+    h2 {
         font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
     }
 }
 
-.fitness{
+.fitness {
     padding: 100px 0;
     background: url('../img/ticwatche2_bg_la_4.jpg') no-repeat bottom center;
     background-size: cover;
     color: @color-light;
     //text-align: center;
 
-    @media(min-width: 768px){
+    @media(min-width: 768px) {
         padding: 250px 0;
     }
 
-    h2{
+    h2 {
         font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
         //color: @color-dark;
+    }
+}
+
+.watch-face {
+    height: 100vh;
+    padding: 70px 0;
+
+    &_e2 {
+        background: url('../img/common_bg_sm_1.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(min-width: 768px) {
+            background: url('../img/common_bg_la_1.jpg') no-repeat top center;
+            background-size: cover;
+            text-align: center;
+        }
+    }
+
+    &_s2 {
+        background: url('../img/common_bg_sm_2.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(min-width: 768px) {
+            background: url('../img/common_bg_la_2.jpg') no-repeat top center;
+            background-size: cover;
+            text-align: center;
+        }
+    }
+
+    &_e {
+        background: url('../img/common_bg_sm_3.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(min-width: 768px) {
+            background: url('../img/common_bg_sm_3.jpg') no-repeat top center;
+            background-size: cover;
+            text-align: center;
+        }
+    }
+
+    h2 {
+        font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
+        color: @color-light;
+    }
+
+    p {
+        color: @color-light;
     }
 }
 

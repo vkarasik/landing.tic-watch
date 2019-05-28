@@ -44,16 +44,9 @@ $(function () {
         }
     })
 
-    function changeFace(){
-        var faces = document.querySelectorAll('.ticpro-faces__face');
-        var random = Math.round(Math.random() * (faces.length - 1));
-        var positionX = Math.round(Math.random() * 6) * (-100);
-        var positionY = Math.round(Math.random() * 5) * (-100);
-        var positionXY = positionX + 'px ' + positionY + 'px';
-        faces[random].style.backgroundPosition = positionXY;
-
-        setTimeout(changeFace, 1500);
-    }
-
-    changeFace();
+    // Change Feature Color
+    $('.features__switchers span').on('click', function(){
+        alert(2);
+        
+    })
 });

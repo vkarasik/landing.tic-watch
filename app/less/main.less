@@ -186,6 +186,12 @@ project: Mobvoi TicWatch
             display: inline-block !important;
         }
     }
+
+    &_shops{
+        height: 70vh;
+        background: url('../img/bg_shops_lg.png') no-repeat center center;
+        background-size: cover;
+    }
 }
 
 img {
@@ -267,11 +273,39 @@ img {
 .features {
     position: relative;
     padding: 50px 0;
-    background: linear-gradient(#cbbda6, #766e7f) !important;
 
     @media(min-width:768px) {
         padding: 70px 0;
     }
+
+    &_gradient{
+        background: linear-gradient(#cbbda6, #766e7f) !important;
+    }
+
+    &_midnight{
+        background: #202226;
+    }
+
+    &__switchers{
+        span{
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            margin: 0 12px;
+            display: inline-block;
+            box-shadow: 0 0 10px #7f7878;
+        }
+    }
+
+    &__color_midnight{
+        background: #080707;
+    }
+
+    &__color_white{
+        background: #ffffff;
+    }
+
+
 
     .photo {
         text-align: center;
@@ -308,6 +342,10 @@ img {
             height: 100px;
             background-size: 400px;
         }
+    }
+
+    &__icon_transparent{
+        background-image: url('../img/sprite_features-transparent.png');
     }
 
     &__icon_right {
@@ -371,11 +409,23 @@ img {
         background-position: 0% 0%;
     }
 
+    &__icon_military {
+        background-position: 0% 0%;
+    }
+
     &__icon_wearos {
         background-position: 33% 0%;
     }
 
+    &__icon_wearos_trnsp {
+        background-position: 33% 100%;
+    }
+
     &__icon_platform {
+        background-position: 67% 0%;
+    }
+
+    &__icon_platform_trnsp {
         background-position: 67% 0%;
     }
 
@@ -383,26 +433,46 @@ img {
         background-position: 100% 0%;
     }
 
+    &__icon_battery_trnsp {
+        background-position: 0% 100%;
+    }
+
     &__icon_activity {
         background-position: 0% 100%;
+    }
+
+    &__icon_activity_trnsp {
+        background-position: 33% 0%;
     }
 
     &__icon_gps {
         background-position: 33% 100%;
     }
 
+    &__icon_gps_trnsp {
+        background-position: 100% 0%;
+    }
+
     &__icon_waterproof {
         background-position: 67% 100%;
+    }
+
+    &__icon_waterproof_trnsp {
+        background-position: 100% 100%;
     }
 
     &__icon_heartrate {
         background-position: 100% 100%;
     }
+
+    &__icon_heartrate_trnsp {
+        background-position: 67% 100%;
+    }
 }
 
 .specification {
     margin: 40px 0;
-    font-size: 130%;
+    font-size: 140%;
     line-height: 1.2;
 
     h2 {
@@ -414,11 +484,11 @@ img {
 
         tr {
             &:nth-child(2n+1) {
-                background-color: #f6f6f6;
+                background-color: @color-light - 15%;
             }
 
             td {
-                padding: 10px 16px;
+                padding: 12px 16px;
 
                 &:last-child {
                     border-left: 1px solid #ffffff;
@@ -452,6 +522,7 @@ img {
 .text {
     h2 {
         font-size: 270%;
+        line-height: 1.1;
         font-family: 'Montserrat-Bold', Arial, Helvetica, sans-serif;
 
         @media(min-width: 768px) {
@@ -500,42 +571,40 @@ img {
     margin: 20px 0;
 }
 
+.shops{
+    margin: 50px 0;
+}
+
 .shop {
-    display: inline-block;
+    //display: flex;
     position: relative;
+    padding: 10px 0;
 
-    &__overlay {
-        display: none;
-        width: 100%;
-        height: 40px;
-        position: absolute;
-        top: 49%;
-        left: 0;
-        transform: translateY(-50%);
-        background: #3f3f3f;
-        opacity: 0.8;
-
-        a {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            padding: 5px 5px;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            text-align: center;
-            font-size: 0;
-        }
+    &__name{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 170%;
+        font-weight: bold;
+        width: 70%;
     }
 
     &__location {
-        right: 15%;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        margin: 0 8px;
+        cursor: pointer;
+        background: url('../img/icon_shop-location.svg') no-repeat center center;
     }
 
     &__link {
-        left: 15%;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 5px;
+        background: url('../img/icon_shopping-cart.svg') no-repeat center center;
     }
 }
 
@@ -648,6 +717,10 @@ img {
         transition: all 0.3s ease 0s;
         margin-left: 0px;
     }
+}
+
+.carousel-text{
+    padding: 50px 0;
 }
 
 .fixed {
@@ -1007,7 +1080,7 @@ footer {
         padding: 50px 0;
         background: #080A0A;
         @media(min-width: 768px){
-            padding: 70px 0;
+            padding: 100px 0;
         }
     }
 }

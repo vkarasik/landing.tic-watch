@@ -2,6 +2,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
     var slider = document.querySelector('.slider__inner');
 
+    if(slider == null) return;
+
     // Define inner width
     var innWidth = slider.parentElement.clientWidth * (slider.children.length + 2);
     slider.style.width = innWidth + 'px';

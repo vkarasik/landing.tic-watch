@@ -5,6 +5,9 @@ window.onload = function () {
     function caruselManualMover(e) {
 
         var slideHolder = document.getElementById('carousel__slide-holder');
+
+        if(slideHolder == null) return;
+
         var firstSlide = slideHolder.firstElementChild;
         var lastSlide = slideHolder.lastElementChild;
 
@@ -58,6 +61,9 @@ window.onload = function () {
 
         // Set width of slide's holder
         var carousel = document.getElementById('carousel__slide-holder');
+
+        if(carousel == null) return;
+
         carousel.style = 'width:' + Math.round(imgWidth * images.length) + 'px';
 
         // Set first image outside visible area

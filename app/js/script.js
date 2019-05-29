@@ -45,8 +45,17 @@ $(function () {
     })
 
     // Change Feature Color
-    $('.features__switchers span').on('click', function(){
-        alert(2);
-        
+    $('#switch_color_white').on('click', function(){
+        $('.features__bg').animate({left: '-100%'}, 200, 'linear');
+        $('.photo_black').fadeOut(200);
+        $('.feature__text').addClass('feature__text_color_dark');
+        $('.features .text').removeClass('text_color_dark').addClass('text_color_dark');
+    })
+
+    $('#switch_color_midnight').on('click', function(){
+        $('.photo_black').fadeIn(200);
+        $('.features__bg').animate({left: '0'}, 200, 'linear');
+        $('.feature__text').removeClass('feature__text_color_dark');
+        $('.features .text').removeClass('text_color_dark').addClass('text_color_light');
     })
 });

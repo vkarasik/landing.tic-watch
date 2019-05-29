@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function () {
     function changeFace() {
         var faces = document.querySelectorAll('.ticpro-faces__face');
 
-        if (faces == null) return;
+        if (faces.length == 0) return;
 
         var random = Math.round(Math.random() * (faces.length - 1));
         var positionX = Math.round(Math.random() * 6) * (-100);

@@ -44,18 +44,26 @@ $(function () {
         }
     })
 
-    // Change Feature Color
-    $('#switch_color_white').on('click', function(){
-        $('.features__bg').animate({left: '-100%'}, 200, 'linear');
-        $('.photo_black').fadeOut(200);
-        $('.feature__text').addClass('feature__text_color_dark');
-        $('.features .text').removeClass('text_color_dark').addClass('text_color_dark');
-    })
+    $('.features__switch').on('click', function(e){
+        var nextBackground = e.target.dataset.color;
+        var nextImage = 'url('+ e.target.dataset.img +')';
 
-    $('#switch_color_midnight').on('click', function(){
-        $('.photo_black').fadeIn(200);
-        $('.features__bg').animate({left: '0'}, 200, 'linear');
-        $('.feature__text').removeClass('feature__text_color_dark');
-        $('.features .text').removeClass('text_color_dark').addClass('text_color_light');
+        if(nextBackground == '#F8F8F8'){
+            $('.feature__text').addClass('feature__text_color_dark');
+        }
+        else{
+            $('.feature__text').removeClass('feature__text_color_dark');
+        }
+
+        $('.features')[0].style.background = nextBackground;
+
+        $('.features__bg').animate({left: '-100%'}, 200, 'linear', function(){
+            $(this).css({background: nextBackground, left: 0});
+        });
+
+        $('.photo').fadeOut(100, function(){
+            $(this).css({'background-image': nextImage}).fadeIn(100);
+        });
+
     })
 });

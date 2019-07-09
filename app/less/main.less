@@ -791,6 +791,16 @@ img {
     text-align: center;
     padding: 5px;
 
+    a {
+        color: @color-dark;
+        text-decoration: none;
+
+        &:hover {
+            color: @color-dark + 20%;
+            text-decoration: none;
+        }
+    }
+
 
     &__item {
         width: 100%;
@@ -808,16 +818,6 @@ img {
         width: 100%;
         padding: 0 5%;
         text-align: center;
-
-        a {
-            color: @color-dark;
-            text-decoration: none;
-
-            &:hover {
-                color: @color-dark + 20%;
-                text-decoration: none;
-            }
-        }
     }
 
     .product__photo_mobile {

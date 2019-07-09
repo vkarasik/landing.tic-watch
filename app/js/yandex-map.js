@@ -130,6 +130,30 @@ window.addEventListener('DOMContentLoaded', function(){
                 "iconImageSize": [35, 35]
             }
         }],
+        "new-store": [{
+            "coordinates": [53.926245, 27.517472],
+            "properties": {
+                "hintContent": "New Store",
+                "balloonContent": "Минск, пр. Победителей, 65, ТРЦ \"Замок\""
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        },
+        {
+            "coordinates": [53.933608, 27.652157],
+            "properties": {
+                "hintContent": "New Store",
+                "balloonContent": "Минск, ул. Мстиславца, 11, ТРЦ \"Dana Mall\""
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }],
         "21vek": [{
             "coordinates": [53.875071, 27.498212],
             "properties": {

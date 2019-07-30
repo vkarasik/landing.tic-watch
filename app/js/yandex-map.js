@@ -189,6 +189,18 @@ window.addEventListener('DOMContentLoaded', function(){
                 "iconImageHref": "../img/icon_pin.svg",
                 "iconImageSize": [35, 35]
             }
+        }],
+        "patio": [{
+            "coordinates": [53.908554, 27.548599],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, проспект Победителей, 9"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
         }]
     }
 })

@@ -130,6 +130,79 @@ window.addEventListener('DOMContentLoaded', function(){
                 "iconImageSize": [35, 35]
             }
         }],
+        "nsv": [{
+            "coordinates": [53.908649, 27.432321],
+            "properties": {
+                "hintContent": "Салон «НА’СВЯЗИ»",
+                "balloonContent": "Минск, ул. Притыцкого, 156"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        },
+        {
+            "coordinates": [53.886467, 27.427793],
+            "properties": {
+                "hintContent": "Салон «НА’СВЯЗИ»",
+                "balloonContent": "Минск, ул. Лобанка, 94"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        },
+        {
+            "coordinates": [53.875023, 27.594871],
+            "properties": {
+                "hintContent": "Салон «НА’СВЯЗИ»",
+                "balloonContent": "Минск, пр. Рокоссовского, 2 (2-й этаж)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        },
+        {
+            "coordinates": [53.874960, 27.498212],
+            "properties": {
+                "hintContent": "Салон «НА’СВЯЗИ»",
+                "balloonContent": "Минск ул. Уманская, 54"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        },
+        {
+            "coordinates": [53.926245, 27.517472],
+            "properties": {
+                "hintContent": "Салон «НА’СВЯЗИ»",
+                "balloonContent": "Минск пр. Победителей, 65"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        },
+        {
+            "coordinates": [53.936380, 27.673186],
+            "properties": {
+                "hintContent": "Салон «НА’СВЯЗИ»",
+                "balloonContent": "Минск Корона пр. Независимости, 154"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }
+    ],
         "new-store": [{
             "coordinates": [53.926245, 27.517472],
             "properties": {

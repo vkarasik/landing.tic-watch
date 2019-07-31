@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(){
+window.addEventListener('DOMContentLoaded', function () {
     var shops = document.getElementsByClassName('shop__location');
     for (i = 0; i < shops.length; i++) {
         shops[i].addEventListener('click', function (e) {
@@ -131,143 +131,288 @@ window.addEventListener('DOMContentLoaded', function(){
             }
         }],
         "nsv": [{
-            "coordinates": [53.908649, 27.432321],
-            "properties": {
-                "hintContent": "Салон «НА’СВЯЗИ»",
-                "balloonContent": "Минск, ул. Притыцкого, 156"
+                "coordinates": [53.908649, 27.432321],
+                "properties": {
+                    "hintContent": "Салон «НА’СВЯЗИ»",
+                    "balloonContent": "Минск, ул. Притыцкого, 156"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        },
-        {
-            "coordinates": [53.886467, 27.427793],
-            "properties": {
-                "hintContent": "Салон «НА’СВЯЗИ»",
-                "balloonContent": "Минск, ул. Лобанка, 94"
+            {
+                "coordinates": [53.886467, 27.427793],
+                "properties": {
+                    "hintContent": "Салон «НА’СВЯЗИ»",
+                    "balloonContent": "Минск, ул. Лобанка, 94"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        },
-        {
-            "coordinates": [53.875023, 27.594871],
-            "properties": {
-                "hintContent": "Салон «НА’СВЯЗИ»",
-                "balloonContent": "Минск, пр. Рокоссовского, 2 (2-й этаж)"
+            {
+                "coordinates": [53.875023, 27.594871],
+                "properties": {
+                    "hintContent": "Салон «НА’СВЯЗИ»",
+                    "balloonContent": "Минск, пр. Рокоссовского, 2 (2-й этаж)"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        },
-        {
-            "coordinates": [53.874960, 27.498212],
-            "properties": {
-                "hintContent": "Салон «НА’СВЯЗИ»",
-                "balloonContent": "Минск ул. Уманская, 54"
+            {
+                "coordinates": [53.874960, 27.498212],
+                "properties": {
+                    "hintContent": "Салон «НА’СВЯЗИ»",
+                    "balloonContent": "Минск ул. Уманская, 54"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        },
-        {
-            "coordinates": [53.926245, 27.517472],
-            "properties": {
-                "hintContent": "Салон «НА’СВЯЗИ»",
-                "balloonContent": "Минск пр. Победителей, 65"
+            {
+                "coordinates": [53.926245, 27.517472],
+                "properties": {
+                    "hintContent": "Салон «НА’СВЯЗИ»",
+                    "balloonContent": "Минск пр. Победителей, 65"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
+            {
+                "coordinates": [53.936380, 27.673186],
+                "properties": {
+                    "hintContent": "Салон «НА’СВЯЗИ»",
+                    "balloonContent": "Минск Корона пр. Независимости, 154"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             }
-        },
-        {
-            "coordinates": [53.936380, 27.673186],
-            "properties": {
-                "hintContent": "Салон «НА’СВЯЗИ»",
-                "balloonContent": "Минск Корона пр. Независимости, 154"
-            },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        }
-    ],
+        ],
         "new-store": [{
-            "coordinates": [53.926245, 27.517472],
-            "properties": {
-                "hintContent": "New Store",
-                "balloonContent": "Минск, пр. Победителей, 65, ТРЦ \"Замок\""
+                "coordinates": [53.926245, 27.517472],
+                "properties": {
+                    "hintContent": "New Store",
+                    "balloonContent": "Минск, пр. Победителей, 65, ТРЦ \"Замок\""
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
+            {
+                "coordinates": [53.933608, 27.652157],
+                "properties": {
+                    "hintContent": "New Store",
+                    "balloonContent": "Минск, ул. Мстиславца, 11, ТРЦ \"Dana Mall\""
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             }
-        },
-        {
-            "coordinates": [53.933608, 27.652157],
-            "properties": {
-                "hintContent": "New Store",
-                "balloonContent": "Минск, ул. Мстиславца, 11, ТРЦ \"Dana Mall\""
-            },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        }],
+        ],
         "21vek": [{
-            "coordinates": [53.875071, 27.498212],
-            "properties": {
-                "hintContent": "21 Век (точка самовывоза)",
-                "balloonContent": "Минск, ул. Уманская 54, ТЦ «Глобо», 2-й этаж"
+                "coordinates": [53.875071, 27.498212],
+                "properties": {
+                    "hintContent": "21 Век (точка самовывоза)",
+                    "balloonContent": "Минск, ул. Уманская 54, ТЦ «Глобо», 2-й этаж"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        },
-        {
-            "coordinates": [53.951760, 27.681487],
-            "properties": {
-                "hintContent": "21 Век (точка самовывоза)",
-                "balloonContent": "Минск, ул. Ложинская 22, ТЦ «Дмитриев Кирмаш», 2-й этаж"
+            {
+                "coordinates": [53.951760, 27.681487],
+                "properties": {
+                    "hintContent": "21 Век (точка самовывоза)",
+                    "balloonContent": "Минск, ул. Ложинская 22, ТЦ «Дмитриев Кирмаш», 2-й этаж"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
+            {
+                "coordinates": [53.878782, 27.591574],
+                "properties": {
+                    "hintContent": "21 Век (точка самовывоза)",
+                    "balloonContent": "Минск, ул. Тростенецкая, 17"
+                },
+                "options": {
+                    "iconLayout": "default#image",
+                    "iconImageHref": "../img/icon_pin.svg",
+                    "iconImageSize": [35, 35]
+                }
             }
-        },
-        {
-            "coordinates": [53.878782, 27.591574],
-            "properties": {
-                "hintContent": "21 Век (точка самовывоза)",
-                "balloonContent": "Минск, ул. Тростенецкая, 17"
-            },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/icon_pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        }],
+        ],
         "patio": [{
-            "coordinates": [53.908554, 27.548599],
+            "coordinates": [53.842417, 27.529213],
             "properties": {
                 "hintContent": "5 Элемент",
-                "balloonContent": "Минск, проспект Победителей, 9"
+                "balloonContent": "Минск, ул. Корженевского, 26 (ТЦ \"Корона\")"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.925539, 27.516376],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, пр. Победителей 65/1 (ТЦ \"Замок\")"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.93638, 27.673186],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, пр. Независимости, 154 (ТЦ \"Корона\")"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.908018, 27.527318],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Кальварийская, 24 (ТЦ «Корона»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.925317725288, 27.449469566345],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Голубка, 2 (ТЦ «Бонус»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.876340565935, 27.465176582336],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Горецкого, 2 (ТЦ «Гиппо»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.965705284332, 27.644562721252],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, д. Боровая, 7а (ТЦ «Боро»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.921324836435, 27.581251859665],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Кульман, 14"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.871609220565, 27.568779587746],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Маяковского, 146"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.883626296859, 27.681577205658],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Нестерова, 49 (Гипермаркет «Евроопт»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.908522273119, 27.548582553864],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, пр. Победителей, 9 (ТРЦ «Галерея Минск»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.93355501058, 27.651987075806],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Мстиславца, 11 (ТЦ «Dana Mall»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.908649, 27.432321],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, ул. Притыцкого, 156 (ТЦ «GreenCity»)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.861844037121, 27.480097040534],
+            "properties": {
+                "hintContent": "5 Элемент",
+                "balloonContent": "Минск, пр. Дзержинского, 104 (ТЦ «Титан»)"
             },
             "options": {
                 "iconLayout": "default#image",

@@ -116,7 +116,6 @@ window.addEventListener('DOMContentLoaded', function () {
                     "iconImageSize": [35, 35]
                 }
             }
-
         ],
         "xiaomi-store": [{
             "coordinates": [53.916249, 27.579519],
@@ -131,78 +130,259 @@ window.addEventListener('DOMContentLoaded', function () {
             }
         }],
         "nsv": [{
-                "coordinates": [53.908649, 27.432321],
-                "properties": {
-                    "hintContent": "Салон «НА’СВЯЗИ»",
-                    "balloonContent": "Минск, ул. Притыцкого, 156"
-                },
-                "options": {
-                    "iconLayout": "default#image",
-                    "iconImageHref": "../img/icon_pin.svg",
-                    "iconImageSize": [35, 35]
-                }
+            "coordinates": [53.886441217491, 27.42795443254],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск ул. Лобанка, 94"
             },
-            {
-                "coordinates": [53.886467, 27.427793],
-                "properties": {
-                    "hintContent": "Салон «НА’СВЯЗИ»",
-                    "balloonContent": "Минск, ул. Лобанка, 94"
-                },
-                "options": {
-                    "iconLayout": "default#image",
-                    "iconImageHref": "../img/icon_pin.svg",
-                    "iconImageSize": [35, 35]
-                }
-            },
-            {
-                "coordinates": [53.875023, 27.594871],
-                "properties": {
-                    "hintContent": "Салон «НА’СВЯЗИ»",
-                    "balloonContent": "Минск, пр. Рокоссовского, 2 (2-й этаж)"
-                },
-                "options": {
-                    "iconLayout": "default#image",
-                    "iconImageHref": "../img/icon_pin.svg",
-                    "iconImageSize": [35, 35]
-                }
-            },
-            {
-                "coordinates": [53.874960, 27.498212],
-                "properties": {
-                    "hintContent": "Салон «НА’СВЯЗИ»",
-                    "balloonContent": "Минск ул. Уманская, 54"
-                },
-                "options": {
-                    "iconLayout": "default#image",
-                    "iconImageHref": "../img/icon_pin.svg",
-                    "iconImageSize": [35, 35]
-                }
-            },
-            {
-                "coordinates": [53.926245, 27.517472],
-                "properties": {
-                    "hintContent": "Салон «НА’СВЯЗИ»",
-                    "balloonContent": "Минск пр. Победителей, 65"
-                },
-                "options": {
-                    "iconLayout": "default#image",
-                    "iconImageHref": "../img/icon_pin.svg",
-                    "iconImageSize": [35, 35]
-                }
-            },
-            {
-                "coordinates": [53.936380, 27.673186],
-                "properties": {
-                    "hintContent": "Салон «НА’СВЯЗИ»",
-                    "balloonContent": "Минск Корона пр. Независимости, 154"
-                },
-                "options": {
-                    "iconLayout": "default#image",
-                    "iconImageHref": "../img/icon_pin.svg",
-                    "iconImageSize": [35, 35]
-                }
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
             }
-        ],
+        }, {
+            "coordinates": [53.876796070691, 27.4666185],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. Горецкого, 2"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.94738857061, 27.678082],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. Городецкая, 30"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.895543519885, 27.5473275],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск пл. Независимости 3-2 пав. № 209 (2-й уровень)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.875023070687, 27.594871],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск пр. Рокоссовского, 2 (2-й этаж)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.875023070687, 27.594871],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск пр. Рокоссовского, 2 (2-й этаж)"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.874721354898, 27.630266872986],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск ул. Жилуновича/пр. Партизанский"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.875130914218, 27.62892735965],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск пр-т Партизанский 81Б-3"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.874960070687, 27.4982125],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск ул. Уманская, 54"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.859605070705, 27.6740215],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, пр. Партизанский, 150а"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.890224070668, 27.554375],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. Бобруйская, 6"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.926244570614, 27.5174725],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск пр. Победителей, 65"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.93638057064, 27.6731865],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск Корона пр. Независимости, 154"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.927851070648, 27.432752],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. Налибокская, 36"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.96418131761, 27.624800153503],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "Минский район, пересечение Логойского тракта и МКАД, ТРЦ \"Экспобел\""
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.96418131761, 27.624800153503],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "Минский район, пересечение Логойского тракта и МКАД, ТРЦ \"Экспобел\""
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.908649070657, 27.432321],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "Г. Минск, ул. Притыцкого, 156"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.908554070656, 27.548599],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, пр. Победителей, д.9"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.842417070719, 27.5292135],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. Корженевского, д. 26"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.91749057065, 27.429671],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. Казимировская, д. 6"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.908518327721, 27.470143813492],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "г. Минск, ул. П.Глебки, 5"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.839811092602, 27.568614495737],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "Минск, ул.Гошкевича, 3"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }, {
+            "coordinates": [53.871587581446, 27.572815593254],
+            "properties": {
+                "hintContent": "На Связи",
+                "balloonContent": "Минск, Денисовская, 8, Е-Сити"
+            },
+            "options": {
+                "iconLayout": "default#image",
+                "iconImageHref": "../img/icon_pin.svg",
+                "iconImageSize": [35, 35]
+            }
+        }],
         "new-store": [{
                 "coordinates": [53.926245, 27.517472],
                 "properties": {

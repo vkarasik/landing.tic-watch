@@ -50,9 +50,11 @@ $(function () {
 
         if(nextBackground == '#F8F8F8'){
             $('.feature__text').addClass('feature__text_color_dark');
+            $('.features__head').addClass('feature__text_color_dark');
         }
         else{
             $('.feature__text').removeClass('feature__text_color_dark');
+            $('.features__head').removeClass('feature__text_color_dark');
         }
 
         $('.features')[0].style.background = nextBackground;
